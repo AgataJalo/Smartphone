@@ -24,6 +24,8 @@ body {
     height: 500px;
     background-color: white;
     margin: 50px auto;
+    color: black;
+    
     
 }
 
@@ -32,6 +34,8 @@ body {
     height: 50px;
     position: absolute;
     margin: 40px 10px 0 10px;
+    border: none;
+    font-size: 40px;
 }
 
  .buttons{
@@ -40,21 +44,26 @@ body {
 
 }
 
-button{
+.nmbBtn{
     width: 60px;
     height:60px;
     border-radius: 60px 60px 60px 60px;
     border: none;
     margin: 3px 8px 6px 8px;
+    font-size: 30px;
     
 }
 
 .callBtn{
-    position: absolute;
     margin: 3px 0 0 90px;
     font-size: 30px;
     color: white;
     background-color: rgb(17, 196, 17);
+    width: 60px;
+    height:60px;
+    border-radius: 60px 60px 60px 60px;
+    border: none;
+    font-size: 30px;
 }
 
 .returnBtn {
@@ -67,9 +76,6 @@ button{
     visibility: hidden;
 }
 
-.nmbBtn {
-    font-size: 30px;
-}
 
 
 .speaker{

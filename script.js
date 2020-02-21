@@ -1,3 +1,13 @@
-var numbers = document.getElementsByClassName("nmbBtn");
-console.log(numbers[0].innerHTML);
+function showNumber(num) {
+
+        document.form.textview.value = document.form.textview.value + num
+
+}
+
+// function clear() {
+//         document.form.textview.value = "";
+// }
+
+
+
 

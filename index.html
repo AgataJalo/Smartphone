@@ -10,23 +10,25 @@
         <span class="camera"></span>
         <span class="speaker"></span>
         <div class="screen">
-            <div class="output"></div>
+            <form name="form">
+                <input class="textview output" name="textview">
+            </form>
             <div class="buttons">
-                <button><span class="nmbBtn">1</span></button>
-                <button><span class="nmbBtn">2</span></button>
-                <button><span class="nmbBtn">3</span></button>
+                <input class="nmbBtn" type="button" value="1" onclick="showNumber(1)">
+                <input class="nmbBtn" type="button" value="2" onclick="showNumber(2)">
+                <input class="nmbBtn" type="button" value="3"onclick="showNumber(3)">
                 <br>
-                <button><span class="nmbBtn">4</span></button>
-                <button><span class="nmbBtn">5</span></button>
-                <button><span class="nmbBtn">6</span></button>
+                <input class="nmbBtn" type="button" value="4"onclick="showNumber(4)">
+                <input class="nmbBtn" type="button" value="5"onclick="showNumber(5)">
+                <input class="nmbBtn" type="button" value="6"onclick="showNumber(6)">
                 <br>
-                <button><span class="nmbBtn">7</span></button>
-                <button><span class="nmbBtn">8</span></button>
-                <button><span class="nmbBtn">9</span></button>
+                <input class="nmbBtn" type="button" value="7" onclick="showNumber(7)">
+                <input class="nmbBtn" type="button" value="8"onclick="showNumber(8)">
+                <input class="nmbBtn" type="button" value="9"onclick="showNumber(9)">
                 <br>
-                <button><span class="nmbBtn">*</span></button>
-                <button><span class="nmbBtn">0</span></button>
-                <button><span class="nmbBtn">#</span></button>
+                <input class="nmbBtn" type="button" value="*" onclick="showNumber(`*`)">
+                <input class="nmbBtn" type="button" value="0" onclick="showNumber(0)">
+                <input class="nmbBtn" type="button" value="#" onclick="showNumber(`#`)">
                 <br>
                 <button class="callBtn"><span>C</span></button>
                 <button class="returnBtn"><span>X</span></button>
